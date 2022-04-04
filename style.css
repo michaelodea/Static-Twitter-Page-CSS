@@ -24,6 +24,12 @@ nav {
 	display:  flex;
 	justify-content: space-around;
 }
+section{
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+	max-width: 1190px;
+}
 .nav-bar {
 	display:  flex;
     justify-content: flex-end;
@@ -46,4 +52,18 @@ nav {
 	background-color: #1DA1F2;
 	text-transform: uppercase;
 	text-align: center;
+}
+.about-me {
+	margin-left: 80px;
+	width: 290px;
+	height: 300px;
+}
+.others{
+	width: 290px;
+	height: 300px;
+}
+.tweets {
+	margin: 0 10px 0 10px;
+	width: 500px;
+	height: 300px;
 }
